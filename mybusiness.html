@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>Gabriel Carrillo</title>
+</head>
+<body>
+    <nav class="blue"> <!--Navagation--->
+        <div class="nav-wrapper container">
+          <a href="#!" class="right brand-logo">Gabriel Carrillo</a>
+          <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="Index.html">Welcome</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            <li><a href="mybusiness.html">My Business</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      <ul class="sidenav blue lighten-3" id="mobile-demo">
+        <li><a href="Index.html">Welcome</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="mybusiness.html">My Business</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+        <ul class="tabs tabs-fixed-width blue lighten-3"> <!--Tab Menu-->
+          <li class="tab col s3"><a href="#test1" class="white-text">China</a></li>
+          <li class="tab col s3"><a href="#test4" class="white-text">America</a></li>
+        </ul>
+        <div class="container">
+          <div class="row"> 
+            <div class="col s10 m10">
+              <div id="test1" class="col s12 m12"> <!--China Tab-->
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/692560897457446507.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Exploring the Sha Po Tou Desert<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Exploring the Sha Po Tou Desert<i class="material-icons right">close</i></span>
+                      <p>During the new year break my family and a couple teachers from our school went to a desert near Inner Mongolia.</p>
+                    </div>
+              </div>
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/IMG_0358.JPEG">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Trip to Shang Hai<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Trip to Shang Hai<i class="material-icons right">close</i></span>
+                      <p>While renewing our VISAs we went to Shang Hai. While we were in Shang Hai we went to Disney Land and Taco Bell.</p>
+                    </div>
+                  </div>
+                </div>
+              <div id="test4" class="col s12 m12"> <!--America Tab-->
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/IMG_7764.JPG">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Hiking in Yosmite<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Hiking in Yosmite<i class="material-icons right">close</i></span>
+                      <p>When my family goes to America we like to go on backpacking trips or day hikes in Yosmite.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/IMG_3641.JPG">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Walking in the hills behind Toro Park<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Walking in the hills behind Toro Park<i class="material-icons right">close</i></span>
+                      <p>Going for walks or biking in the rolling hills behind Toro Park is a beuatiful and peaceful recrational activity.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col s2 m2"> <!--Sidebar-->
+              <h5 class="center-align">Traveling the world</h5>
+              <p class="center-align">My family loves to travel. We try to go to a new place every vacation, and have been to China, America, Thailand, Kenya, and more.</p>
+            </div>
+         </div>
+        </div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true});
+    $('.tabs').tabs();
+    });
+    </script>
+</body>
+</html>

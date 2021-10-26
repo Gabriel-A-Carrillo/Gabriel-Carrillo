@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gabriel Carrillo</title>
+</head>
+<body>
+    <nav class="blue"> <!--Navagation-->
+        <div class="nav-wrapper container">
+          <a href="#!" class="right brand-logo">Gabriel Carrillo</a>
+          <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="Index.html">Welcome</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            <li><a href="mybusiness.html">My Business</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <ul class="sidenav blue lighten-3" id="mobile-demo"> 
+          <li><a href="Index.html">Welcome</a></li>
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="mybusiness.html">My Business</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <div class="slider"> <!--Rotating Pictures-->
+        <ul class="slides">
+          <li>
+            <img src="img/America/IMG_3441 - Copy.JPG">
+            <div class="caption center-align">
+              <h3>My American Culture</h3>
+              <h5 class="light grey-text text-lighten-3">The Culture of my Parents and My Passport Country</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/China/WeChat Image_202110150958398.jpg"> 
+            <div class="caption left-align">
+              <h3>My Chinese Culture</h3>
+              <h5 class="light grey-text text-lighten-3">The Culture and Environment I lived in</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/12.jpg"> 
+            <div class="caption right-align">
+              <h3>My Korean Culture</h3>
+              <h5 class="light grey-text text-lighten-3">The Culture and Nationality of most My Friends</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/667777614166272869.jpg">
+            <div class="caption center-align">
+              <h3>My Own Culture</h3>
+              <h5 class="light grey-text text-lighten-3">A Combination of all Cultures that Around Me</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/WeChat Image_202110150958395.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-action">
+              <a href="photography.html">Photography</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/IMG_3655.JPG">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-action">
+              <a href="mybusiness.html">Business</a>
+            </div>
+          </div>
+        </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/878810256654452129.jpg">
+            <span class="card-title"></span>
+          </div>
+          <div class="card-action">
+            <a href="about.html">About Me</a>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true});
+    $('.parallax').parallax();
+    $('.slider').slider();
+    });
+    </script>
+</body>
+</html>
