@@ -2,3 +2,7 @@
     height: 400px;
 }
 
+#indeximg{
+    max=height: 20px;
+    min-width: 100px;
+}
