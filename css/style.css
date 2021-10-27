@@ -3,6 +3,6 @@
 }
 
 #indeximg{
-    max=height: 20px;
+    max-height: 20px;
     min-width: 100px;
 }
